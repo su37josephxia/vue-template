@@ -11,7 +11,7 @@ const routes = [
     {
       path: '/{{name}}',
       name: '{{name}}',
-      component: () => import('./views/{{file}}')
+      component: () => import('../views/{{file}}')
     },
   {{/each}}
 ]
